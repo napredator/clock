@@ -1,0 +1,20 @@
+clock_hour_strike=0;
+second_tick=0;
+alarm[0]=1;
+alarm[1]=60;
+alarm[2]=1;
+ctx=50;
+cty=50;
+options_display=1;
+cl_red=255;
+cl_green=255;
+cl_blue=255;
+second=current_second;
+hour=current_hour;
+hour_amount=current_hour;
+if current_hour>12
+{
+hour_amount-=12;
+}
+ticking=1;
+hourstrike=1;
